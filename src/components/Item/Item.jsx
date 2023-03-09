@@ -6,7 +6,9 @@ function Item({ item, onItemClick }) {
   return (
     <li>
       <p>{item.name}</p>
-      <button type="button" onClick={handleClick}>Ver detalhes</button>
+      <button type="button" onClick={handleClick}>
+        Ver detalhes
+        </button>
     </li>
   );
 }
