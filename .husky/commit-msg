@@ -1,10 +1,9 @@
-#!/usr/bin/env sh
+#!/bin/sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo ""
 echo "Running Husky pre-commit woof!"
 echo ""
 
 
-npx --no -- commitlint --edit
+npx  commitlint --edit $1
 
